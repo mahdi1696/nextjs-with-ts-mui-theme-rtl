@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import Link from "../src/Link";
 import ProTip from "../src/ProTip";
 import Copyright from "../src/Copyright";
+import ThemeSample from "../src/ThemeSample";
 
 const Home: NextPage = () => {
   return (
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         </Link>
         <ProTip />
         <Copyright />
+        <ThemeSample />
       </Box>
     </Container>
   );
